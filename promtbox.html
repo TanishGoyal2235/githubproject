@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> It's Prompt Box Buddy</title>
+    </head>
+    <body>
+        <h2>Promt Box Example</h2>
+        <button onclick="showPrompt()">Click Me</button>
+    <script>
+    function showPrompt(){
+        var name = prompt("Enter Main Name:")
+
+        if (name != null){
+            alert("Hello " + name);
+        }
+          else {
+            alert("No Name Entered");
+        }
+    }
+    </script>
+    </body>
+</html>
