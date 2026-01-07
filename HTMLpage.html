@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!-- Title tag: show the title on the browser tab--> 
+       <title>Student Training Registration</title>
+       <style>
+        body{
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: darkblue;
+            text-align : center;
+        }
+        label{
+            font-weight: bold;
+        }
+         </style>
+    </head>
+<body>
+
+    <!-- Centre tag: Aligns content to the center-->
+     <center>
+
+        <!--Heading Tag-->
+        <h1>Student Training Registration Form</h1>
+        <!-- Paragraph->
+         <p>Please fill the below form to enroll in the training program.
+
+        <!--Horizontal line -->
+        <hr>
+
+        <!-- Form tag: used to collect student details-->
+         <form>
+            <!-- Text box for name -->
+             <lable>Student Name:</lable><br>
+             <input type ="text" placeholder=""Enter your name"><br><br>
+
+                <!-- Email box for email -->
+                 <lable>Email Id:</lable><br>
+                    <input type="email" placeholder="Enter your email id"><br><br>
+                <!-- Mobile Number-->
+                <lable>Mobile Number:</lable><br>
+                    <input type="tel" placeholder="Enter your mobile number"><br><br>
+                <!--Radio buttons for gender-->
+                <label>Gender:</label><br> 
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other<br><br>
+                <!-- Dropdown list-->
+                <label>Select Course:</label><br>
+                    <select>
+                        <option>Select</option>
+                            <option> html</option>
+                            <option> css</option>
+                            <option>js</option>
+                            <option>python</option>
+                        </Select>
+                        <br><br>
+                <!-- Text area for address -->
+                <label>Address:</label><br>
+                    <textarea rows="4" cols="50" placeholder="Enter your address">
+        </textarea>
+                    <br><br>
+
+                    <!--Checkbox for terms and conditions -->
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the terms and conditions</label><br><br>
+                    <!-- Submit button -->
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+         </form>
+     </center>
+</body>
+</html>
